@@ -1,0 +1,123 @@
+{
+    "version": 1,
+    "key": "zha.storage",
+    "data": {
+        "devices": [
+            {
+                "name": "Silicon Labs EZSP",
+                "ieee": "00:0d:6f:00:15:0e:76:4e",
+                "last_seen": 1630460171.5983899
+            },
+            {
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "ieee": "cc:cc:cc:ff:fe:e9:a4:3f",
+                "last_seen": 1630462071.2914884
+            },
+            {
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "ieee": "cc:cc:cc:ff:fe:d7:68:5c",
+                "last_seen": 1630462340.699496
+            },
+            {
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "ieee": "cc:cc:cc:ff:fe:93:51:48",
+                "last_seen": 1630462532.8277733
+            },
+            {
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "ieee": "cc:cc:cc:ff:fe:9d:f1:9c",
+                "last_seen": 1630462368.884673
+            },
+            {
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "ieee": "cc:cc:cc:ff:fe:e0:b2:a1",
+                "last_seen": 1630462631.4268677
+            },
+            {
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "ieee": "cc:cc:cc:ff:fe:e2:7a:13",
+                "last_seen": 1630462390.733499
+            },
+            {
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "ieee": "cc:cc:cc:ff:fe:d4:c6:45",
+                "last_seen": 1630462169.609389
+            },
+            {
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "ieee": "cc:cc:cc:ff:fe:d6:52:82",
+                "last_seen": 1630462454.9639938
+            },
+            {
+                "name": "Philips RWL020",
+                "ieee": "00:17:88:01:08:6e:71:b9",
+                "last_seen": 1630461836.3353791
+            },
+            {
+                "name": "Philips RWL020",
+                "ieee": "00:17:88:01:10:5e:b3:51",
+                "last_seen": 1630461187.4926121
+            },
+            {
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "ieee": "cc:cc:cc:ff:fe:d7:7a:c9",
+                "last_seen": 1630462430.572562
+            },
+            {
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "ieee": "cc:cc:cc:ff:fe:c8:a0:6b",
+                "last_seen": 1630462556.883118
+            },
+            {
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "ieee": "cc:cc:cc:ff:fe:67:ce:1a",
+                "last_seen": 1630462637.356963
+            },
+            {
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "ieee": "cc:cc:cc:ff:fe:d6:73:8c",
+                "last_seen": 1630462083.6801424
+            },
+            {
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "ieee": "cc:cc:cc:ff:fe:d6:5a:23",
+                "last_seen": 1630462417.4347863
+            },
+            {
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "ieee": "cc:cc:cc:ff:fe:9f:f0:6e",
+                "last_seen": 1630462617.9833136
+            },
+            {
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "ieee": "cc:cc:cc:ff:fe:d6:60:0b",
+                "last_seen": 1630462029.782492
+            },
+            {
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "ieee": "cc:cc:cc:ff:fe:9d:e1:67",
+                "last_seen": 1630462117.9716308
+            },
+            {
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "ieee": "cc:cc:cc:ff:fe:c0:0c:4c",
+                "last_seen": 1630462558.5596108
+            },
+            {
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "ieee": "cc:cc:cc:ff:fe:d4:bb:c8",
+                "last_seen": 1630462396.3080957
+            },
+            {
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "ieee": "cc:cc:cc:ff:fe:d7:74:fe",
+                "last_seen": 1630462343.457747
+            },
+            {
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "ieee": "cc:cc:cc:ff:fe:ef:72:54",
+                "last_seen": 1630462352.5101542
+            }
+        ]
+    }
+}
