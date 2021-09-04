@@ -1,0 +1,19 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+group: !include groups.yaml
+light: !include lights.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+lutron_caseta_pro:
+    bridges:
+      - host: !secret lutron_caseta_pro_ip   
+        mac: !secret lutron_caseta_pro_mac
+
