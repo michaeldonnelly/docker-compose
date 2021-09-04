@@ -1,0 +1,172 @@
+{
+    "version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "input_boolean.movie_time",
+                "state": "off",
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Movie Time",
+                    "icon": "mdi:movie-open"
+                },
+                "last_changed": "2021-09-04T20:33:08.120573+00:00",
+                "last_updated": "2021-09-04T20:33:08.120573+00:00",
+                "context": {
+                    "id": "5071fd160dbf11ecbceb65c2a53a504a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-04T20:34:03.620650+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.living_room_lights_on",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "981278927919",
+                    "friendly_name": "Living Room Lights On"
+                },
+                "last_changed": "2021-09-04T20:33:08.121060+00:00",
+                "last_updated": "2021-09-04T20:33:08.121060+00:00",
+                "context": {
+                    "id": "507211140dbf11ec8b0dd17305f31196",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-04T20:34:03.620650+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.living_room_lights_off",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "981278927920",
+                    "friendly_name": "Living Room Lights Off"
+                },
+                "last_changed": "2021-09-04T20:33:08.121469+00:00",
+                "last_updated": "2021-09-04T20:33:08.121469+00:00",
+                "context": {
+                    "id": "507221210dbf11ec9b4e79764afd99fa",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-04T20:34:03.620650+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.living_room_lights_brighter",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "981278927921",
+                    "friendly_name": "Living Room Lights Brighter"
+                },
+                "last_changed": "2021-09-04T20:33:08.121907+00:00",
+                "last_updated": "2021-09-04T20:33:08.121907+00:00",
+                "context": {
+                    "id": "507232370dbf11ecb744a9ed3612c996",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-04T20:34:03.620650+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.living_room_lights_dimmer",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "981278927922",
+                    "friendly_name": "Living Room Lights Dimmer"
+                },
+                "last_changed": "2021-09-04T20:33:08.122299+00:00",
+                "last_updated": "2021-09-04T20:33:08.122299+00:00",
+                "context": {
+                    "id": "507241af0dbf11ecb345f940ba628da2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-04T20:34:03.620650+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.scene_watching_movies",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1600918865558",
+                    "friendly_name": "Scene: Watching Movies"
+                },
+                "last_changed": "2021-09-04T20:33:08.122743+00:00",
+                "last_updated": "2021-09-04T20:33:08.122743+00:00",
+                "context": {
+                    "id": "507252c60dbf11ec8f229fb34e0b2307",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-04T20:34:03.620650+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.scene_living_room_daylight",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1600918865559",
+                    "friendly_name": "Scene: Living Room: Daylight"
+                },
+                "last_changed": "2021-09-04T20:33:08.123145+00:00",
+                "last_updated": "2021-09-04T20:33:08.123145+00:00",
+                "context": {
+                    "id": "507262ab0dbf11ec9e26413ba6e317c4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-04T20:34:03.620650+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.scene_living_room_warm",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1601361994919",
+                    "friendly_name": "Scene: Living Room Warm"
+                },
+                "last_changed": "2021-09-04T20:33:08.123532+00:00",
+                "last_updated": "2021-09-04T20:33:08.123532+00:00",
+                "context": {
+                    "id": "507271d40dbf11eca5f24d05b8e8328f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-09-04T20:34:03.620650+00:00"
+        }
+    ]
+}

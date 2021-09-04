@@ -1,0 +1,744 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:0d:6f:00:15:0e:76:4e"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:0d:6f:00:15:0e:76:4e"
+                    ]
+                ],
+                "manufacturer": "ZHA",
+                "model": "EZSP = Silicon Labs EmberZNet protocol: Elelabs, HUSBZB-1, Telegesis",
+                "name": "Zigbee Coordinator",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:e9:a4:3f"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:e9:a4:3f"
+                    ]
+                ],
+                "manufacturer": "The Home Depot",
+                "model": "Ecosmart-ZBT-BR30-CCT-Bulb",
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "sw_version": "0x21036500",
+                "entry_type": null,
+                "id": "756c329cf9cb11eaa214a1451b36d459",
+                "via_device_id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "area_id": "9311917ef9cb11ea8367bf440f3ad4e9",
+                "name_by_user": "Light E04"
+            },
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:d7:68:5c"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:d7:68:5c"
+                    ]
+                ],
+                "manufacturer": "The Home Depot",
+                "model": "Ecosmart-ZBT-BR30-CCT-Bulb",
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "sw_version": "0x21036500",
+                "entry_type": null,
+                "id": "4fced348f9ce11eaba8aed17b122b669",
+                "via_device_id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "area_id": "076eef70f9ca11ea80013f950ca0a5b6",
+                "name_by_user": "Light L02"
+            },
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:93:51:48"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:93:51:48"
+                    ]
+                ],
+                "manufacturer": "The Home Depot",
+                "model": "Ecosmart-ZBT-BR30-CCT-Bulb",
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "sw_version": "0x21036500",
+                "entry_type": null,
+                "id": "f2be194af9cf11ea84f80fcfeb196e2a",
+                "via_device_id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "area_id": "076eef70f9ca11ea80013f950ca0a5b6",
+                "name_by_user": "Light L04"
+            },
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:9d:f1:9c"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:9d:f1:9c"
+                    ]
+                ],
+                "manufacturer": "The Home Depot",
+                "model": "Ecosmart-ZBT-BR30-CCT-Bulb",
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "sw_version": "0x21036500",
+                "entry_type": null,
+                "id": "81a1f1c2f9d011ea81d98f1b911b9f40",
+                "via_device_id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "area_id": "076eef70f9ca11ea80013f950ca0a5b6",
+                "name_by_user": "Light L03"
+            },
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:e0:b2:a1"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:e0:b2:a1"
+                    ]
+                ],
+                "manufacturer": "The Home Depot",
+                "model": "Ecosmart-ZBT-BR30-CCT-Bulb",
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "sw_version": "0x21036500",
+                "entry_type": null,
+                "id": "235632a6f9d111ea950c0fa6b7b5e42f",
+                "via_device_id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "area_id": "076eef70f9ca11ea80013f950ca0a5b6",
+                "name_by_user": "Light L01"
+            },
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:e2:7a:13"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:e2:7a:13"
+                    ]
+                ],
+                "manufacturer": "The Home Depot",
+                "model": "Ecosmart-ZBT-BR30-CCT-Bulb",
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "sw_version": "0x21036500",
+                "entry_type": null,
+                "id": "698984a2f9d111eab2932d5a2f1255cd",
+                "via_device_id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "area_id": "9311917ef9cb11ea8367bf440f3ad4e9",
+                "name_by_user": "Light E03"
+            },
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:d4:c6:45"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:d4:c6:45"
+                    ]
+                ],
+                "manufacturer": "The Home Depot",
+                "model": "Ecosmart-ZBT-BR30-CCT-Bulb",
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "sw_version": "0x21036500",
+                "entry_type": null,
+                "id": "b5ed152ef9d211ea8a353b5b842d0c39",
+                "via_device_id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "area_id": "9311917ef9cb11ea8367bf440f3ad4e9",
+                "name_by_user": "Light E01"
+            },
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:d6:52:82"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:d6:52:82"
+                    ]
+                ],
+                "manufacturer": "The Home Depot",
+                "model": "Ecosmart-ZBT-BR30-CCT-Bulb",
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "sw_version": "0x21036500",
+                "entry_type": null,
+                "id": "054e0676f9d311ea99b213eb42f1b33c",
+                "via_device_id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "area_id": "9311917ef9cb11ea8367bf440f3ad4e9",
+                "name_by_user": "Light E02"
+            },
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:17:88:01:08:6e:71:b9"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:17:88:01:08:6e:71:b9"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "RWL020",
+                "name": "Philips RWL020",
+                "sw_version": "0x42006f9d",
+                "entry_type": null,
+                "id": "829fc05cf9d511eab68a0b8f43a9f7a9",
+                "via_device_id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "area_id": "076efec2f9ca11ea9e8add33546374ab",
+                "name_by_user": "Philips Switch P01"
+            },
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:17:88:01:10:5e:b3:51"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:17:88:01:10:5e:b3:51"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "RWL020",
+                "name": "Philips RWL020",
+                "sw_version": "0x42006f9d",
+                "entry_type": null,
+                "id": "c6ca899cf9d511ea80d68d1d78e0ce8e",
+                "via_device_id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "area_id": "9311917ef9cb11ea8367bf440f3ad4e9",
+                "name_by_user": "Philips Switch P02"
+            },
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:d7:7a:c9"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:d7:7a:c9"
+                    ]
+                ],
+                "manufacturer": "The Home Depot",
+                "model": "Ecosmart-ZBT-BR30-CCT-Bulb",
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "sw_version": "0x21036500",
+                "entry_type": null,
+                "id": "cc80a9a2f9e911eab832398844b31d09",
+                "via_device_id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "area_id": "fbc9bcd4f9e911eaacee7d21c86b014c",
+                "name_by_user": "Light D01"
+            },
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:c8:a0:6b"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:c8:a0:6b"
+                    ]
+                ],
+                "manufacturer": "The Home Depot",
+                "model": "Ecosmart-ZBT-BR30-CCT-Bulb",
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "sw_version": "0x21036500",
+                "entry_type": null,
+                "id": "ccae24f0f9e911eaaa96ff0137aac46d",
+                "via_device_id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "area_id": "fbc9bcd4f9e911eaacee7d21c86b014c",
+                "name_by_user": "Light D02"
+            },
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:67:ce:1a"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:67:ce:1a"
+                    ]
+                ],
+                "manufacturer": "The Home Depot",
+                "model": "Ecosmart-ZBT-BR30-CCT-Bulb",
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "sw_version": "0x21036500",
+                "entry_type": null,
+                "id": "d3425900f9e911eaacd7374d365c90ba",
+                "via_device_id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "area_id": "fbc9bcd4f9e911eaacee7d21c86b014c",
+                "name_by_user": "Light D04"
+            },
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:d6:73:8c"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:d6:73:8c"
+                    ]
+                ],
+                "manufacturer": "The Home Depot",
+                "model": "Ecosmart-ZBT-BR30-CCT-Bulb",
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "sw_version": "0x21036500",
+                "entry_type": null,
+                "id": "d4741fe8f9e911ea82385154de3bc6eb",
+                "via_device_id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "area_id": "fbc9bcd4f9e911eaacee7d21c86b014c",
+                "name_by_user": "Light D03"
+            },
+            {
+                "config_entries": [
+                    "1ac67b581e5111eb8ad1177ff31eac03"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "E0C17A31-6A35-4E04-AC87-C3ABE6B8D9A8"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone8,4",
+                "name": "Auk",
+                "sw_version": "14.6",
+                "entry_type": null,
+                "id": "1b19579afa2511ea8bc6ffcd3cac5614",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "9e341468faa611eab66a93b9321261d4"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "accessory-id",
+                        "26:64:09:A9:B7:09"
+                    ],
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "511878530927"
+                    ]
+                ],
+                "manufacturer": "ecobee Inc.",
+                "model": "ecobee4",
+                "name": "Upstairs",
+                "sw_version": "4.6.30088",
+                "entry_type": null,
+                "id": "9e5f0f5afaa611ea800a798d274dd40b",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": "Ecobee"
+            },
+            {
+                "config_entries": [
+                    "9e341468faa611eab66a93b9321261d4"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "H34F"
+                    ]
+                ],
+                "manufacturer": "ecobee Inc.",
+                "model": "REMOTE SENSOR",
+                "name": "Bedroom",
+                "sw_version": "1.0.0",
+                "entry_type": null,
+                "id": "9e643b68faa611eab15649ee80664fa0",
+                "via_device_id": "9e5f0f5afaa611ea800a798d274dd40b",
+                "area_id": "076f082cf9ca11eaaea13177a3b1bef4",
+                "name_by_user": "Ecobee Sensor Bedroom"
+            },
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:d6:5a:23"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:d6:5a:23"
+                    ]
+                ],
+                "manufacturer": "The Home Depot",
+                "model": "Ecosmart-ZBT-BR30-CCT-Bulb",
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "sw_version": "0x21036500",
+                "entry_type": null,
+                "id": "d868f7bafaaa11ea8a7137934a51dcf9",
+                "via_device_id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "area_id": "076efec2f9ca11ea9e8add33546374ab",
+                "name_by_user": "Light K07"
+            },
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:9f:f0:6e"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:9f:f0:6e"
+                    ]
+                ],
+                "manufacturer": "The Home Depot",
+                "model": "Ecosmart-ZBT-BR30-CCT-Bulb",
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "sw_version": "0x21036500",
+                "entry_type": null,
+                "id": "d8f49464faaa11ea95afc9de1194273f",
+                "via_device_id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "area_id": "076efec2f9ca11ea9e8add33546374ab",
+                "name_by_user": "Light K01"
+            },
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:d6:60:0b"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:d6:60:0b"
+                    ]
+                ],
+                "manufacturer": "The Home Depot",
+                "model": "Ecosmart-ZBT-BR30-CCT-Bulb",
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "sw_version": "0x21036500",
+                "entry_type": null,
+                "id": "d920d80cfaaa11ea8b6219cdf57c03a4",
+                "via_device_id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "area_id": "076efec2f9ca11ea9e8add33546374ab",
+                "name_by_user": "Light K08"
+            },
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:9d:e1:67"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:9d:e1:67"
+                    ]
+                ],
+                "manufacturer": "The Home Depot",
+                "model": "Ecosmart-ZBT-BR30-CCT-Bulb",
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "sw_version": "0x21036500",
+                "entry_type": null,
+                "id": "d9ba9ec8faaa11eaab1387bc3d8f1210",
+                "via_device_id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "area_id": "076efec2f9ca11ea9e8add33546374ab",
+                "name_by_user": "Light K06"
+            },
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:c0:0c:4c"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:c0:0c:4c"
+                    ]
+                ],
+                "manufacturer": "The Home Depot",
+                "model": "Ecosmart-ZBT-BR30-CCT-Bulb",
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "sw_version": "0x21036500",
+                "entry_type": null,
+                "id": "ddc19702faaa11eaa8766d3f37a2d6e9",
+                "via_device_id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "area_id": "076efec2f9ca11ea9e8add33546374ab",
+                "name_by_user": "Light K02"
+            },
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:d4:bb:c8"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:d4:bb:c8"
+                    ]
+                ],
+                "manufacturer": "The Home Depot",
+                "model": "Ecosmart-ZBT-BR30-CCT-Bulb",
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "sw_version": "0x21036500",
+                "entry_type": null,
+                "id": "de05bdd0faaa11eaac9887242cfe3dc5",
+                "via_device_id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "area_id": "076efec2f9ca11ea9e8add33546374ab",
+                "name_by_user": "Light K03"
+            },
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:d7:74:fe"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:d7:74:fe"
+                    ]
+                ],
+                "manufacturer": "The Home Depot",
+                "model": "Ecosmart-ZBT-BR30-CCT-Bulb",
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "sw_version": "0x21036500",
+                "entry_type": null,
+                "id": "2a9277c0003811eba0afe334b078e422",
+                "via_device_id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "area_id": "076efec2f9ca11ea9e8add33546374ab",
+                "name_by_user": "Light K04"
+            },
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "cc:cc:cc:ff:fe:ef:72:54"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "cc:cc:cc:ff:fe:ef:72:54"
+                    ]
+                ],
+                "manufacturer": "The Home Depot",
+                "model": "Ecosmart-ZBT-BR30-CCT-Bulb",
+                "name": "The Home Depot Ecosmart-ZBT-BR30-CCT-Bulb",
+                "sw_version": "0x21036500",
+                "entry_type": null,
+                "id": "2b945554003811ebbf22b1394aee0c66",
+                "via_device_id": "ea4411c8f9ca11ea9dceb58e612a028e",
+                "area_id": "076efec2f9ca11ea9e8add33546374ab",
+                "name_by_user": "Light K05"
+            },
+            {
+                "config_entries": [
+                    "3331cbe6157111eb81e7e724aaeadad2"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hacs",
+                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+                    ]
+                ],
+                "manufacturer": "hacs.xyz",
+                "model": "",
+                "name": "HACS",
+                "sw_version": "1.6.0",
+                "entry_type": "service",
+                "id": "33cb6238157111eb9b80e313ebe58a85",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "bc97c00247b211eb8658bf9595a4e471"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "af:4d:5b:e0:3f:3d"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "homekit",
+                        "bc97c00247b211eb8658bf9595a4e471",
+                        "homekit.bridge"
+                    ]
+                ],
+                "manufacturer": "Home Assistant",
+                "model": "Home Assistant HomeKit Bridge",
+                "name": "HASS Bridge 81EJ",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "bc9e986847b211eb94fde3f1be093e18",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null
+            }
+        ],
+        "deleted_devices": [
+            {
+                "config_entries": [
+                    "e8ff5ad4f9ca11eabf3109cf81a51001"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:17:88:01:02:d6:c9:70"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:17:88:01:02:d6:c9:70"
+                    ]
+                ],
+                "id": "3b112234f9cb11ea8e75efe4772f379a"
+            }
+        ]
+    }
+}

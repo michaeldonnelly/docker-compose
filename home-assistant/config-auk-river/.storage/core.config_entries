@@ -1,0 +1,230 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "559c154af9ca11ea886a27e7da55d420",
+                "version": 1,
+                "domain": "met",
+                "title": "Home",
+                "data": {
+                    "track_home": true
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "onboarding",
+                "connection_class": "cloud_poll",
+                "unique_id": null
+            },
+            {
+                "entry_id": "e8ff5ad4f9ca11eabf3109cf81a51001",
+                "version": 2,
+                "domain": "zha",
+                "title": "HubZ Smart Home Controller, s/n: C1302274 - Silicon Labs",
+                "data": {
+                    "radio_type": "ezsp",
+                    "device": {
+                        "path": "/dev/serial/by-id/usb-Silicon_Labs_HubZ_Smart_Home_Controller_C1302274-if01-port0",
+                        "baudrate": 57600
+                    }
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "local_push",
+                "unique_id": null
+            },
+            {
+                "entry_id": "9e341468faa611eab66a93b9321261d4",
+                "version": 1,
+                "domain": "homekit_controller",
+                "title": "Upstairs",
+                "data": {
+                    "AccessoryPairingID": "26:64:09:A9:B7:09",
+                    "AccessoryLTPK": "ee05b95ab021008b11940eec17d6ffb856037a4c9c91fbfc735c78a6be9dce31",
+                    "iOSPairingId": "b81033b1-0624-415b-ae88-6184ffeb52b8",
+                    "iOSDeviceLTSK": "c273a3c68cbeaecb4c6ad370a6e32166ba27ec9d16cd8bc0a7ba04938c9afeb4",
+                    "iOSDeviceLTPK": "e2dbd6d88e85d12e7862368ded1c7251994c6212aaf4da8d57f5b9366716d946",
+                    "AccessoryIP": "192.168.11.106",
+                    "AccessoryPort": 1200,
+                    "Connection": "IP"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "zeroconf",
+                "connection_class": "local_push",
+                "unique_id": "26:64:09:a9:b7:09"
+            },
+            {
+                "entry_id": "3331cbe6157111eb81e7e724aaeadad2",
+                "version": 1,
+                "domain": "hacs",
+                "title": "",
+                "data": {
+                    "token": "2f0c9fe820aaf80e28458836e64a0ad25e168711"
+                },
+                "options": {
+                    "sidepanel_title": "HACS",
+                    "sidepanel_icon": "hacs:hacs",
+                    "release_limit": 5,
+                    "country": "ALL",
+                    "appdaemon": false,
+                    "netdaemon": false,
+                    "debug": false,
+                    "experimental": false
+                },
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "cloud_poll",
+                "unique_id": null
+            },
+            {
+                "entry_id": "64776e38157411eba07ce5df0e61716d",
+                "version": 1,
+                "domain": "adaptive_lighting",
+                "title": "Adaptive Lighting",
+                "data": {
+                    "name": "Adaptive Lighting"
+                },
+                "options": {
+                    "lights": [
+                        "light.d01",
+                        "light.d02",
+                        "light.d03",
+                        "light.d04",
+                        "light.e01",
+                        "light.e03",
+                        "light.e02",
+                        "light.k01",
+                        "light.e04",
+                        "light.k02",
+                        "light.k03",
+                        "light.k04",
+                        "light.k05",
+                        "light.k06",
+                        "light.k07",
+                        "light.k08",
+                        "light.l01",
+                        "light.l02",
+                        "light.l03",
+                        "light.l04"
+                    ],
+                    "prefer_rgb_color": false,
+                    "initial_transition": 1.0,
+                    "transition": 45.0,
+                    "interval": 90,
+                    "min_brightness": 15,
+                    "max_brightness": 80,
+                    "min_color_temp": 2700,
+                    "max_color_temp": 5500,
+                    "sleep_brightness": 1,
+                    "sleep_color_temp": 1000,
+                    "sunrise_time": "None",
+                    "sunrise_offset": 0,
+                    "sunset_time": "None",
+                    "sunset_offset": 0,
+                    "only_once": false,
+                    "take_over_control": true,
+                    "detect_non_ha_changes": false
+                },
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "unknown",
+                "unique_id": "Adaptive Lighting"
+            },
+            {
+                "entry_id": "1ac67b581e5111eb8ad1177ff31eac03",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Auk",
+                "data": {
+                    "app_name": "Home Assistant",
+                    "os_version": "14.6",
+                    "os_name": "iOS",
+                    "model": "iPhone8,4",
+                    "app_id": "io.robbie.HomeAssistant",
+                    "device_id": "E0C17A31-6A35-4E04-AC87-C3ABE6B8D9A8",
+                    "manufacturer": "Apple",
+                    "supports_encryption": true,
+                    "app_data": {
+                        "push_token": "eMZvYUhj8UeUsTAjd63-YL:APA91bGe7RTie1DIPpXCA10QtBCT5DfOnNHjZ9C3IdT83RjKMH5Q-fJdHHMvspvgiDSKHo2x-6tD1ebflBhFZtvDc36WgCbBtATz0dn8X3Iq7U5ieB3Ni0rBh840I2JoVI5lGIMhbM0M",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_version": "2021.8 (2021.216)",
+                    "device_name": "Auk",
+                    "webhook_id": "9cde556e7096b4e95f976de6f39ded168eb46489c089322ab6fae72e65510c99",
+                    "secret": "8e001be6cc601a55b08e7e819bf0db6c56af891570326ef88350faf2d693c541",
+                    "user_id": "0aa8b46415d74bc39a466c81b2c743a3"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "registration",
+                "connection_class": "cloud_push",
+                "unique_id": "io.robbie.HomeAssistant-E0C17A31-6A35-4E04-AC87-C3ABE6B8D9A8"
+            },
+            {
+                "entry_id": "bc97c00247b211eb8658bf9595a4e471",
+                "version": 1,
+                "domain": "homekit",
+                "title": "HASS Bridge 81EJ:51828",
+                "data": {
+                    "name": "HASS Bridge 81EJ",
+                    "port": 51828
+                },
+                "options": {
+                    "filter": {
+                        "include_domains": [
+                            "alarm_control_panel",
+                            "climate",
+                            "cover",
+                            "humidifier",
+                            "light",
+                            "lock",
+                            "media_player",
+                            "switch",
+                            "vacuum",
+                            "water_heater"
+                        ],
+                        "include_entities": [],
+                        "exclude_domains": [],
+                        "exclude_entities": []
+                    },
+                    "auto_start": true
+                },
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "local_push",
+                "unique_id": null
+            },
+            {
+                "entry_id": "72a2a5d869b111eb8fb2f5a37622235c",
+                "version": 1,
+                "domain": "upnp",
+                "title": "Ignored",
+                "data": {},
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "ignore",
+                "connection_class": "local_poll",
+                "unique_id": "uuid:4d696e69-444c-164e-9d42-30469a00e054::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
+            }
+        ]
+    }
+}
