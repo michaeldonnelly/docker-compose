@@ -1,10 +1,9 @@
 auth
 auth_provider.homeassistant
 secrets.yaml
-homeassistant.log
-home-assistant.log
-home-assistant_v2.db*
-log/home-assistant_v2.db
-log/home-assistant_v2.db-shm
-log/home-assistant_v2.db-wal
+*.log
+*.db
+*.db-*
 core.*
+lutron_caseta_pro_*
+
