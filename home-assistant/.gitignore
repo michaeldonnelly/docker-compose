@@ -6,4 +6,5 @@ secrets.yaml
 *.db-*
 core.*
 lutron_caseta_pro_*
+homekit*
 
