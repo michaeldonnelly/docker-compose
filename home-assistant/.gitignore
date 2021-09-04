@@ -4,7 +4,6 @@ secrets.yaml
 *.log
 *.db
 *.db-*
-core.*
 lutron_caseta_pro_*
 homekit*
 mobile_app
