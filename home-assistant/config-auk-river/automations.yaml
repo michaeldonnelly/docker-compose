@@ -1,0 +1,446 @@
+- id: '9038000000001'
+  alias: Kitchen Lights On
+  action:
+  - alias: Kitchen Lights On
+    service: light.turn_on
+    entity_id: light.kitchen_lights
+  condition: []
+  trigger:
+  - platform: state
+    entity_id: sensor.hallway_pico_s08
+    to: '1'
+  - platform: state
+    entity_id: sensor.kitchen_pico_s11
+    to: '1'
+  - platform: state
+    entity_id: sensor.dining_room_pico_s15
+    to: '1'
+  mode: single
+
+- id: '9038000000002'
+  alias: Kitchen Lights Off
+  action:
+  - alias: Kitchen Lights Off
+    service: light.turn_off
+    entity_id: light.kitchen_lights
+  condition: []
+  trigger:
+  - platform: state
+    entity_id: sensor.hallway_pico_s08
+    to: '4'
+  - platform: state
+    entity_id: sensor.kitchen_pico_s11
+    to: '4'
+  - platform: state
+    entity_id: sensor.dining_room_pico_s15
+    to: '4'
+  mode: single
+
+- id: '9038000000003'
+  alias: Kitchen Lights Brighter
+  action:
+  - device_id: 79ab57f800c211ebb4d73bd488bacf7a
+    domain: light
+    entity_id: light.kitchen_lights
+    type: brightness_increase
+  condition: []
+  trigger:
+  - platform: state
+    entity_id: sensor.hallway_pico_s08
+    to: '8'
+  - platform: state
+    entity_id: sensor.kitchen_pico_s11
+    to: '8'
+  - platform: state
+    entity_id: sensor.dining_room_pico_s15
+    to: '8'
+  mode: single
+
+- id: '9038000000004'
+  alias: Kitchen Lights Dimmer
+  action:
+  - device_id: 79ab57f800c211ebb4d73bd488bacf7a
+    domain: light
+    entity_id: light.kitchen_lights
+    type: brightness_decrease
+  condition: []
+  trigger:
+  - platform: state
+    entity_id: sensor.hallway_pico_s08
+    to: '16'
+  - platform: state
+    entity_id: sensor.kitchen_pico_s11
+    to: '16'
+  - platform: state
+    entity_id: sensor.dining_room_pico_s15
+    to: '16'
+  mode: single
+
+- id: '9038000000005'
+  alias: 'Kitchen Sink Lights'
+  action:
+  - alias: Kitchen Sink Lights On
+    service: light.turn_on
+    entity_id: light.kitchen_sink_lights
+  condition: []
+  trigger:
+  - platform: state
+    entity_id: sensor.hallway_pico_s08
+    to: '2'
+  - platform: state
+    entity_id: sensor.kitchen_pico_s11
+    to: '2'
+  - platform: state
+    entity_id: sensor.dining_room_pico_s15
+    to: '2'
+  mode: single
+
+
+
+- id: '9038000000011'
+  alias: Dining Room Lights On
+  action:
+  - alias: Dining Room Lights On
+    service: light.turn_on
+    entity_id: light.dining_room_lights
+  condition: []
+  trigger:
+  - platform: state
+    entity_id: sensor.hallway_pico_s07
+    to: '1'
+  - platform: state
+    entity_id: sensor.dining_room_pico_s16
+    to: '1'
+  mode: single
+
+- id: '9038000000012'
+  alias: Dining Room Lights Off
+  action:
+  - alias: Dining Room Lights Off
+    service: light.turn_off
+    entity_id: light.dining_room_lights
+  condition: []
+  trigger:
+  - platform: state
+    entity_id: sensor.hallway_pico_s07
+    to: '4'
+  - platform: state
+    entity_id: sensor.dining_room_pico_s16
+    to: '4'
+  mode: single
+
+- id: '9038000000013'
+  alias: Dining Room Lights Brighter
+  action:
+  - device_id: 2490c814005211ebaf0e05d44e9f7519
+    domain: light
+    entity_id: light.dining_room_lights
+    type: brightness_increase
+  condition: []
+  trigger:
+  - platform: state
+    entity_id: sensor.hallway_pico_s07
+    to: '8'
+  - platform: state
+    entity_id: sensor.dining_room_pico_s16
+    to: '8'
+  mode: single
+
+- id: '9038000000014'
+  alias: Dining Room Lights Dimmer
+  action:
+  - device_id: 2490c814005211ebaf0e05d44e9f7519
+    domain: light
+    entity_id: light.dining_room_lights
+    type: brightness_decrease
+  condition: []
+  trigger:
+  - platform: state
+    entity_id: sensor.hallway_pico_s07
+    to: '16'
+  - platform: state
+    entity_id: sensor.dining_room_pico_s16
+    to: '16'
+  mode: single
+
+- id: '9038000000015'
+  alias: 'Dining Room Lights: Eating'
+  action:
+  - scene: scene.dining_room_lights_eating
+  trigger:
+  - platform: state
+    entity_id: sensor.hallway_pico_s07
+    to: '2'
+  - platform: state
+    entity_id: sensor.dining_room_pico_s16
+    to: '2'
+  condition: []
+  mode: single
+
+
+
+- id: '9038000000021'
+  alias: Entry Lights On
+  action:
+  - alias: Entry Lights On
+    service: light.turn_on
+    entity_id: light.entry_lights
+  condition: []
+  trigger:
+  - platform: state
+    entity_id: sensor.front_foyer_pico_s03
+    to: '1'
+  - platform: state
+    entity_id: sensor.hallway_pico_s05
+    to: '1'
+  mode: single
+
+- id: '9038000000022'
+  alias: Entry Lights Off
+  action:
+  - alias: Entry Lights Off
+    service: light.turn_off
+    entity_id: light.entry_lights
+  condition: []
+  trigger:
+  - platform: state
+    entity_id: sensor.front_foyer_pico_s03
+    to: '4'
+  - platform: state
+    entity_id: sensor.hallway_pico_s05
+    to: '4'
+  mode: single
+
+- id: '9038000000023'
+  alias: Entry Lights Brighter
+  action:
+  - device_id: 1fa91f7800c411eb985f791156e3999c
+    domain: light
+    entity_id: light.entry_lights
+    type: brightness_increase
+  condition: []
+  trigger:
+  - platform: state
+    entity_id: sensor.front_foyer_pico_s03
+    to: '8'
+  - platform: state
+    entity_id: sensor.hallway_pico_s05
+    to: '8'
+  mode: single
+
+- id: '9038000000024'
+  alias: Entry Lights Dimmer
+  action:
+  - device_id: 1fa91f7800c411eb985f791156e3999c
+    domain: light
+    entity_id: light.entry_lights
+    type: brightness_decrease
+  condition: []
+  trigger:
+  - platform: state
+    entity_id: sensor.front_foyer_pico_s03
+    to: '16'
+  - platform: state
+    entity_id: sensor.hallway_pico_s05
+    to: '16'
+  mode: single
+
+
+
+- id: '9039000000021'
+  alias: Living Room Lights On
+  action:
+  - alias: Living Room Lights On
+    service: light.turn_on
+    entity_id: light.living_room_lights
+  condition: []
+  trigger:
+  - platform: state
+    entity_id: sensor.porch_entry_pico_s12
+    to: '1'
+  - platform: state
+    entity_id: sensor.stairs_pico_s14
+    to: '1'
+  mode: single
+
+- id: '9039000000022'
+  alias: Living Room Lights Off
+  action:
+  - alias: Living Room Lights Off
+    service: light.turn_off
+    entity_id: light.living_room_lights
+  condition: []
+  trigger:
+  - platform: state
+    entity_id: sensor.porch_entry_pico_s12
+    to: '4'
+  - platform: state
+    entity_id: sensor.stairs_pico_s14
+    to: '4'
+  mode: single
+
+- id: '9039000000023'
+  alias: Living Room Lights Brighter
+  action:
+  - device_id: 1fa91f7800c411eb985f791156e3999c
+    domain: light
+    entity_id: light.living_room_lights
+    type: brightness_increase
+  condition: []
+  trigger:
+  - platform: state
+    entity_id: sensor.porch_entry_pico_s12
+    to: '8'
+  - platform: state
+    entity_id: sensor.stairs_pico_s14
+    to: '8'
+  mode: single
+
+- id: '9039000000024'
+  alias: Living Room Lights Dimmer
+  action:
+  - device_id: 1fa91f7800c411eb985f791156e3999c
+    domain: light
+    entity_id: light.living_room_lights
+    type: brightness_decrease
+  condition: []
+  trigger:
+  - platform: state
+    entity_id: sensor.porch_entry_pico_s12
+    to: '16'
+  - platform: state
+    entity_id: sensor.stairs_pico_s14
+    to: '16'
+  mode: single
+
+
+- id: '9038000000025'
+  alias: 'Living Room Cozy'
+  action:
+  - scene: scene.living_room_cozy
+  trigger:
+  - platform: state
+    entity_id: sensor.hallway_pico_s05
+    to: '2'
+  - platform: state
+    entity_id: sensor.porch_entry_pico_s12
+    to: '2'
+  - platform: state
+    entity_id: sensor.stairs_pico_s14
+    to: '2'
+  condition: []
+  mode: single
+
+- id: '9038000000026'
+  alias: 'Entry Lights: Welcome'
+  action:
+  - scene: scene.entry_welcome
+  trigger:
+  - platform: state
+    entity_id: sensor.front_foyer_pico_s03
+    to: '2'
+  condition: []
+  mode: single
+
+- id: '1601226000021'
+  alias: Daylight
+  action:
+  - scene: scene.daylight
+  trigger:
+  - device_id: 829fc05cf9d511eab68a0b8f43a9f7a9
+    domain: zha
+    platform: device
+    type: remote_button_long_press
+    subtype: turn_on
+  - device_id: c6ca899cf9d511ea80d68d1d78e0ce8e
+    domain: zha
+    platform: device
+    type: remote_button_long_press
+    subtype: turn_on
+  condition: []
+  mode: single
+
+- id: '1601226000001'
+  alias: All Lights On
+  action:
+  - alias: All Lights On
+    service: light.turn_on
+    entity_id: light.all_lights
+  trigger:
+  - device_id: 829fc05cf9d511eab68a0b8f43a9f7a9
+    domain: zha
+    platform: device
+    type: remote_button_short_press
+    subtype: turn_on
+  - device_id: c6ca899cf9d511ea80d68d1d78e0ce8e
+    domain: zha
+    platform: device
+    type: remote_button_short_press
+    subtype: turn_on
+  condition: []
+  mode: single
+
+- id: '1601226000004'
+  alias: All Lights Off
+  action:
+  - alias: All Lights Off
+    service: light.turn_off
+    entity_id: light.all_lights
+  trigger:
+  - platform: state
+    entity_id: sensor.front_foyer_pico_s03
+    to: '2'
+  - platform: state
+    entity_id: sensor.front_foyer_pico_s05
+    to: '2'
+  - device_id: 829fc05cf9d511eab68a0b8f43a9f7a9
+    domain: zha
+    platform: device
+    type: remote_button_short_press
+    subtype: turn_off
+  - device_id: c6ca899cf9d511ea80d68d1d78e0ce8e
+    domain: zha
+    platform: device
+    type: remote_button_short_press
+    subtype: turn_off
+  condition: []
+  mode: single
+
+
+- id: '1601226000002'
+  alias: All Lights Cooler
+  action:
+  - alias: All Lights Cooler
+    service: script.lights_all_cooler
+  trigger:
+  - device_id: 829fc05cf9d511eab68a0b8f43a9f7a9
+    domain: zha
+    platform: device
+    type: remote_button_short_press
+    subtype: dim_up
+  - device_id: c6ca899cf9d511ea80d68d1d78e0ce8e
+    domain: zha
+    platform: device
+    type: remote_button_short_press
+    subtype: dim_up
+  condition: []
+  mode: single
+
+- id: '1601226000003'
+  alias: All Lights Warmer
+  action:
+  - alias: All Lights Warmer
+    service: script.lights_all_warmer
+  trigger:
+  - device_id: 829fc05cf9d511eab68a0b8f43a9f7a9
+    domain: zha
+    platform: device
+    type: remote_button_short_press
+    subtype: dim_down
+  - device_id: c6ca899cf9d511ea80d68d1d78e0ce8e
+    domain: zha
+    platform: device
+    type: remote_button_short_press
+    subtype: dim_down
+  condition: []
+  mode: single

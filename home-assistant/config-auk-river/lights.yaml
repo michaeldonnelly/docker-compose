@@ -1,0 +1,56 @@
+
+  - platform: group
+    name: Entry Lights
+    entities:
+      - light.e01
+      - light.e02
+      - light.e03
+      - light.e04
+
+  - platform: group
+    name: Kitchen Lights
+    entities:
+      - light.k01
+      - light.k02
+      - light.k03
+      - light.k04
+      - light.k05
+      - light.k06
+      - light.k07
+      - light.k08
+
+  - platform: group
+    name: Kitchen Sink Lights
+    entities:
+      - light.k04
+      - light.k05
+
+  - platform: group
+    name: Living Room Lights
+    entities:
+      - light.l01
+      - light.l02
+      - light.l03
+      - light.l04
+
+  - platform: group
+    name: Dining Room Lights
+    entities:
+      - light.d01
+      - light.d02
+      - light.d03
+      - light.d04
+
+  - platform: group
+    name: West Lights
+    entities:
+      - light.entry_lights
+      - light.living_room_lights
+
+  - platform: group
+    name: All Lights
+    entities:
+      - light.entry_lights
+      - light.kitchen_lights
+      - light.living_room_lights
+      - light.dining_room_lights

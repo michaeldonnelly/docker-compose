@@ -1,0 +1,91 @@
+'1601213824256':
+  alias: Light Range Demo
+  sequence:
+  - service: light.turn_off
+    entity_id: light.all_lights
+  - service: light.turn_on
+    data:
+      color_temp: 153
+      brightness_pct: 10
+    entity_id: light.all_lights
+  - service: light.turn_on
+    data:
+      color_temp: 153
+      brightness_pct: 25
+    entity_id: light.all_lights
+  - service: light.turn_on
+    data:
+      color_temp: 153
+      brightness_pct: 50
+    entity_id: light.all_lights
+  - service: light.turn_on
+    data:
+      color_temp: 153
+      brightness_pct: 75
+    entity_id: light.all_lights
+  - service: light.turn_on
+    data:
+      color_temp: 153
+      brightness_pct: 100
+    entity_id: light.all_lights
+  - service: light.turn_on
+    data:
+      color_temp: 225
+      brightness_pct: 100
+    entity_id: light.all_lights
+  - service: light.turn_on
+    data:
+      color_temp: 297
+      brightness_pct: 100
+    entity_id: light.all_lights
+  - service: light.turn_on
+    data:
+      color_temp: 370
+      brightness_pct: 100
+    entity_id: light.all_lights
+  - service: light.turn_on
+    data:
+      color_temp: 370
+      brightness_pct: 75
+    entity_id: light.all_lights
+  - service: light.turn_on
+    data:
+      color_temp: 370
+      brightness_pct: 50
+    entity_id: light.all_lights
+  mode: single
+
+
+lights_all_cooler:
+    alias: All lights cooler color temp (more blue)
+    description: ''
+    sequence:
+      - service: light.turn_on
+        entity_id: light.all_lights
+        data_template:
+          color_temp: >
+            {% set step_size = 27 %}  
+            {% set current_color_temp = (state_attr('light.all_lights', 'color_temp') | int) %}
+            {% set new_color_temp = current_color_temp | int - step_size %}
+            {% if new_color_temp < 153 %}
+              153
+            {% else %}
+              {{ new_color_temp }}
+            {% endif %}
+
+lights_all_warmer:
+    alias: All lights warmer color temp (more yellow)
+    description: ''
+    sequence:
+      - service: light.turn_on
+        entity_id: light.all_lights
+        data_template:
+          color_temp: >
+            {% set step_size = 27 %}
+            {% set current_color_temp = (state_attr('light.all_lights', 'color_temp') | int) %}
+            {% set new_color_temp = current_color_temp | int + step_size %}
+            {% if new_color_temp > 370 %}
+              370
+            {% else %}
+              {{ new_color_temp }}
+            {% endif %}

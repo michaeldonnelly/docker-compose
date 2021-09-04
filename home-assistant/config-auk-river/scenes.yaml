@@ -1,0 +1,145 @@
+- id: '1601214630993'
+  name: 'Kitchen Lights: Cooking'
+  entities:
+    light.kitchen_lights:
+      min_mireds: 153
+      max_mireds: 370
+      brightness: 180
+      color_temp: 257
+      entity_id:
+      - light.k01
+      - light.k02
+      - light.k03
+      - light.k04
+      - light.k05
+      - light.k06
+      - light.k07
+      - light.k08
+      friendly_name: Kitchen Lights
+      supported_features: 43
+      state: 'on'
+- id: '1601214630994'
+  name: 'Kitchen Sink'
+  entities:
+    light.kitchen_lights:
+      min_mireds: 153
+      max_mireds: 370
+      brightness: 180
+      color_temp: 257
+      entity_id:
+      - light.k01
+      - light.k02
+      - light.k03
+      - light.k04
+      - light.k05
+      - light.k06
+      - light.k07
+      - light.k08
+      friendly_name: Kitchen Lights
+      supported_features: 43
+      state: 'on'
+- id: '1601214695608'
+  name: 'Dining Room Lights: Eating'
+  entities:
+    light.dining_room_lights:
+      min_mireds: 153
+      max_mireds: 370
+      brightness: 97
+      color_temp: 352
+      entity_id:
+      - light.d01
+      - light.d02
+      - light.d03
+      - light.d04
+      friendly_name: Dining Room Lights
+      supported_features: 43
+      state: 'on'
+
+- id: '1601215550911'
+  name: 'Living Room: Cozy'
+  entities:
+    light.dining_room_lights:
+      min_mireds: 153
+      max_mireds: 370
+      entity_id:
+      - light.d01
+      - light.d02
+      - light.d03
+      - light.d04
+      friendly_name: Dining Room Lights
+      supported_features: 43
+      state: 'off'
+    light.kitchen_lights:
+      min_mireds: 153
+      max_mireds: 370
+      entity_id:
+      - light.k01
+      - light.k02
+      - light.k03
+      - light.k04
+      - light.k05
+      - light.k06
+      - light.k07
+      - light.k08
+      friendly_name: Kitchen Lights
+      supported_features: 43
+      state: 'off'
+    light.entry_lights:
+      min_mireds: 153
+      max_mireds: 370
+      entity_id:
+      - light.e01
+      - light.e02
+      - light.e03
+      - light.e04
+      friendly_name: Entry Lights
+      supported_features: 43
+      state: 'off'
+    light.living_room_lights:
+      min_mireds: 153
+      max_mireds: 370
+      brightness: 113
+      color_temp: 355
+      entity_id:
+      - light.l01
+      - light.l02
+      - light.l03
+      - light.l04
+      friendly_name: Living Room Lights
+      supported_features: 43
+      state: 'on'
+
+
+- id: '1601215885172'
+  name: 'Entry: Welcome'
+  entities:
+    light.entry_lights:
+      min_mireds: 153
+      max_mireds: 370
+      brightness: 254
+      color_temp: 370
+      entity_id:
+      - light.e01
+      - light.e02
+      - light.e03
+      - light.e04
+      friendly_name: Entry Lights
+      supported_features: 43
+      state: 'on'
+
+- id: '1601225834148'
+  name: Daylight
+  entities:
+    light.all_lights:
+      min_mireds: 153
+      max_mireds: 370
+      brightness: 192
+      color_temp: 261
+      entity_id:
+      - light.entry_lights
+      - light.kitchen_lights
+      - light.living_room_lights
+      - light.dining_room_lights
+      friendly_name: All Lights
+      supported_features: 43
+      state: 'on'
