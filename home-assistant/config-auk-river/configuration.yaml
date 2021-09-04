@@ -14,6 +14,6 @@ scene: !include scenes.yaml
 
 lutron_caseta_pro:
     bridges:
-      - host: !secret lutron_caseta_pro_ip   
-        mac: !secret lutron_caseta_pro_mac
+      - host: 192.168.13.6
+        mac: 64:cf:d9:c5:ce:80
 
